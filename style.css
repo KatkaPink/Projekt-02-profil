@@ -17,5 +17,36 @@ tlačítko twitter          #1da1f2
 
 body {
   background-color: #bdc3c7;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(203, 203, 226);
 }
 
+h1 {
+color: white;
+}
+
+.foto {
+  width: 30%;
+  margin: 1em;
+}
+
+.obsah {
+  width: 30%;
+  background-color: #31363b;
+  margin: 1em ;
+  padding: 2em;
+  
+}
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+}
+
+.portfolio,
+.facebook,
+.twitter {
+  background-color: #31363b;
+  
+}
