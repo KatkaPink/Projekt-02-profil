@@ -22,31 +22,57 @@ body {
   color: rgb(203, 203, 226);
 }
 
+.profil {
+  position: relative;
+  width: 300px;
+}
+
+.hlavicka {
+  max-width: inherit;
+  overflow: auto;
+}
+
 h1 {
 color: white;
 }
 
 .foto {
-  width: 30%;
-  margin: 1em;
+  width: 100%;
+  display: block;
 }
 
 .obsah {
-  width: 30%;
   background-color: #31363b;
-  margin: 1em ;
   padding: 2em;
-  
 }
 
 .logo {
   background-color: #b92e81;
   border-radius: 50%;
+  position: absolute;
+  left: 210px;
+  top: 180px;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
 }
 
 .portfolio,
 .facebook,
 .twitter {
   background-color: #31363b;
-  
+  border: 1px solid  #bdc3c7;
 }
+
+.odkazy a {
+  text-decoration: none;
+  color: #bdc3c7;
+  padding: 20px 0;
+}
+
+.odkazy li {
+  list-style-type: none;
+}
+
