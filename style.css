@@ -44,6 +44,7 @@ h1 {
 .obsah {
   background-color: #31363b;
   padding: 1em;
+  box-shadow: #31363b;
 }
 
 .logo {
@@ -64,18 +65,14 @@ ul {
 .facebook,
 .twitter {
   background-color: #31363b;
-  /* border: 1px solid  #bdc3c7; */
-  display: block;
+  /* border: 1px solid  #bdc3c7; 
+  display: block;*/
 }
 
 .odkazy a {
   text-decoration: none;
   color: #bdc3c7;
-  padding: 10px 0;
-}
-
-a:hover {
-  background-color: rgb(0, 157, 255);
+  padding: 14px 30px;
 }
 
 .odkazy li {
@@ -86,15 +83,32 @@ a:hover {
 
 .facebook{
   float: left;
-  border-right: #bdc3c7;
-  padding-right: ;
+  border-right: #3f464d;
+  width: 49.85%;
+  padding: 10px;
+}
+
+.facebook a:hover {
+  background-color: #3b5998;
 }
 
 .twitter {
   float: right;
+  width: 49.85%;
+  padding: 10px;
+  border-left: #3f464d;
+}
+
+.twitter a:hover {
+  background-color: #1da1f2;
 }
 
 .portfolio {
-  border-top: 1px solid #bdc3c7;
-  border-bottom: 1px solid #bdc3c7;
+  border-top: 1px solid #3f464d;
+  border-bottom: 1px solid #3f464d;
+  padding: 10px;
+}
+
+.portfolio a:hover {
+  background-color: #e74c3c;
 }
