@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-color: white;
+  color: white;
 }
 
 .foto {
@@ -43,7 +43,7 @@ color: white;
 
 .obsah {
   background-color: #31363b;
-  padding: 2em;
+  padding: 1em;
 }
 
 .logo {
@@ -57,22 +57,44 @@ color: white;
 ul {
   padding: 0;
   text-align: center;
+  margin: 0;
 }
 
 .portfolio,
 .facebook,
 .twitter {
   background-color: #31363b;
-  border: 1px solid  #bdc3c7;
+  /* border: 1px solid  #bdc3c7; */
+  display: block;
 }
 
 .odkazy a {
   text-decoration: none;
   color: #bdc3c7;
-  padding: 20px 0;
+  padding: 10px 0;
+}
+
+a:hover {
+  background-color: rgb(0, 157, 255);
 }
 
 .odkazy li {
   list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
+.facebook{
+  float: left;
+  border-right: #bdc3c7;
+  padding-right: ;
+}
+
+.twitter {
+  float: right;
+}
+
+.portfolio {
+  border-top: 1px solid #bdc3c7;
+  border-bottom: 1px solid #bdc3c7;
+}
