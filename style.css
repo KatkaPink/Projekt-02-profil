@@ -25,6 +25,7 @@ body {
 .profil {
   position: relative;
   width: 300px;
+  box-shadow: 5px 10px darkgrey;
 }
 
 .hlavicka {
@@ -44,7 +45,6 @@ h1 {
 .obsah {
   background-color: #31363b;
   padding: 1em;
-  box-shadow: #31363b;
 }
 
 .logo {
@@ -67,6 +67,7 @@ ul {
   background-color: #31363b;
   /* border: 1px solid  #bdc3c7; 
   display: block;*/
+  box-shadow: 5px 10px darkgray;
 }
 
 .odkazy a {
